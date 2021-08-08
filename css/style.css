@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+:root{
+    --navbar-height:75px;
+}
+#navbar{
+display: flex;
+position: relative;
+font-family: 'Baloo Bhai 2', cursive;
+height: var(--navbar-height);
+align-items: center;
+
+}
+#navbar::before{
+    content: "";
+background: black;
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.8;
+}
+.logo img{
+    height: var(--navbar-height);
+    filter: invert();
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+margin: 15px 21px;
+padding: 1  px;
+list-style-type:none ;
+}
+
+li a{
+padding: 16px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    padding: 34px 27px;
+    transition: 1s;
+    
+}
+li a:hover{
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  padding: 0px 200px;
+  justify-content: center;
+  height: 400px;
+  font-family: 'Bree Serif', serif;
+}
+#home::before{
+    content: "";
+background: url("../img/background.jpg") no-repeat center center/cover;
+position: absolute;
+height: 370px;
+width: 100%;
+z-index: -2;
+opacity: 0.89;
+top:75px;
+}
+#home h1{
+color: white;
+text-align: center;
+font-size: 2.5rem;
+font-family: 'Bree Serif', serif;
+margin:17px;
+}
+#btn{
+    color: white;
+    background-color: rgb(133, 84, 84);
+    border: 2px solid white;
+    padding: 2px 2px;
+    margin:17px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#services-container .box{
+    border: 2px solid red;
+    height: 300px;
+    margin: 20px;
+    width: 400px;
+    border-radius: 40px;
+    padding: 2px 6px;
+    background-color: rgb(192, 141, 141);
+    display: inline-block;
+    width: 377px;
+}
+#services-container{
+display: block;
+
+}
+#services-container .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+
+}
+p,h2{
+    display: flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+
+}
+.title{
+    display: block;
+width: 250px;
+margin: auto;
+padding: 4px 2px;
+font-family: 'Bree Serif', serif;
+font-size: 40px;
+color:rgb(0, 0, 0);
+}
+#services-container::before{
+    content: "";
+    background: whitesmoke
+ 
+}
+.clients{
+    height: 24px;
+    display: block;
+    margin: 27px auto;
+    width: 400px;
+    font-family: 'Bree Serif', serif;
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+}
+.imgclients{
+    height: 200px;
+    display: block;
+    margin: 65px 30%;
+    width: 900px;
+}
+.imgclients img{
+    height: 130px;
+    width: 150px;
+    padding: 4px 3px;
+
+}
+#clients-container::before{
+    content: "";
+    background: url("../img/back.jpg") no-repeat center center/cover ;
+    top: 886px;
+    z-index: -1;
+    opacity: 0.8;
+    height: 290px;
+    width: 100%;
+    position: absolute;
+
+}
+h1{
+    display: block;
+    padding: 0px 53px;
+}
+#clients-container{
+    display: block;
+    margin: auto ;
+    height: 100% ;
+    width: 100%;
+}
+#contactus{
+    height: 460px;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+font-size: 29px;
+color: rgb(0, 0, 0);
+}
+#contactus::before{
+    content: "";
+    background: url("../img/contact.jpg") no-repeat center center/cover;
+    opacity: 0.68;
+    z-index: -2;
+    top: 1176px;
+    height: 552px;
+    width: 100%;
+    position: absolute;
+}
+
+.formgroup button {
+    display: block;
+    width: 700px;
+    margin: 3px auto;
+    font-family: 'Bree Serif', serif;
+    padding: 4px 4px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 1s;
+}
+.formgroup{
+    display: inline-block;
+    flex-direction: column;
+}
+.formgroup label     {
+    display: inline-block;
+    margin: 3px auto;
+    font-family: 'Bree Serif', serif;
+    padding: 4px 4px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.formgroup button:hover{
+    color: white;
+    background: black;
+}
+.formgroup input {
+  
+    margin: 10px 10px;
+    text-align: center;
+    width: 90%;
+    border-radius: 6px;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    padding: 2px 2px;
+
+}
+.center{
+    text-align: center;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 41px 40px;
+}
