@@ -1,0 +1,29 @@
+{
+  "name": "food_delivery",
+  "version": "1.0.0",
+  "description": "This is food delivery website with html css only learnt from codewithharry",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamy4ever/Food_delivery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamy4ever/Food_delivery/issues"
+  },
+  "homepage": "https://github.com/shubhamy4ever/Food_delivery#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
