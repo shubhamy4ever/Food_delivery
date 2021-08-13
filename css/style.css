@@ -200,7 +200,6 @@ color: rgb(0, 0, 0);
     cursor: pointer;
     transition: 1s;
 }
-}
 .formgroup{
     flex-direction: column;
    align-items:center;
