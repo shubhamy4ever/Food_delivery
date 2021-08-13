@@ -200,9 +200,12 @@ color: rgb(0, 0, 0);
     cursor: pointer;
     transition: 1s;
 }
+}
 .formgroup{
-    display: inline-block;
     flex-direction: column;
+   align-items:center;
+display:flex;
+    
 }
 .formgroup label     {
     display: inline-block;
@@ -215,6 +218,7 @@ color: rgb(0, 0, 0);
 .formgroup button:hover{
     color: white;
     background: black;
+border:none;
 }
 .formgroup input {
   
