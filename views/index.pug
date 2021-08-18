@@ -1,0 +1,65 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Food Delivery
+  link(href='https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Bree+Serif&display=swap' rel='stylesheet')
+  style
+    include ../css/style.css
+navbar#navbar
+  .logo
+    img(src='/logo.png' alt='' srcset='')
+  .content
+    ul
+      li
+        a(href='#') Home
+      li
+        a(href='#services-container') Services
+      li
+        a(href='#clients-container') About us
+      li
+        a(href='#contactus') Contact us
+section#home
+  h1.primary Welcome to my online food delivery
+  p
+    | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum odio ut temporibus ab ipsum quos
+    | consequatur sunt natus hic architecto beatae rem cum Lorem ipsum dolor sit amet.
+  button#btn order now
+section#services-container
+  h1.title Our Services
+  .box
+    img(src='/1.png' alt='')
+    h2 Food catering
+    p
+      | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum odio ut temporibus ab ipsum quos
+  .box
+    img(src='/2.png' alt='')
+    h2 bulk ordering
+    p
+      | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum odio ut temporibus ab ipsum quos
+  .box
+    img(src='/3.png' alt='')
+    h2 Food ordering
+    p
+      | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum odio ut temporibus ab ipsum quos
+section#clients-container
+  .clients
+    h1 Our Clients
+  .imgclients
+    img(src='/clients1.png' alt='')
+    img(src='/clients2.jpg' alt='')
+    img(src='/clients3.png' alt='')
+section#contactus
+  h2 Contact us
+  form(action='/food',method="POST")
+    .formgroup
+      input#name(type='text' name='name' placeholder='Enter Your Name:')
+      input#locality(type='text' name='locality' placeholder='Enter Your Locality:')
+      input#number(type='text' name='number' placeholder='Enter Your Number:')
+      input#email(type='email' name='email' placeholder='Enter Your Email:')
+      .submitnow
+        button.btn Submit Now
+footer
+  .center
+    | Copyright &copy; www.ordermeal.com All rights reserved

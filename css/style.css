@@ -65,7 +65,7 @@ li a:hover{
 }
 #home::before{
     content: "";
-background: url("../img/background.jpg") no-repeat center center/cover;
+background: url("background.jpg") no-repeat center center/cover;
 position: absolute;
 height: 370px;
 width: 100%;
@@ -155,7 +155,7 @@ color:rgb(0, 0, 0);
 }
 #clients-container::before{
     content: "";
-    background: url("../img/back.jpg") no-repeat center center/cover ;
+    background: url("/back.jpg") no-repeat center center/cover ;
     top: 886px;
     z-index: -1;
     opacity: 0.8;
@@ -184,7 +184,7 @@ color: rgb(0, 0, 0);
 }
 #contactus::before{
     content: "";
-    background: url("../img/contact.jpg") no-repeat center center/cover;
+    background: url("/contact.jpg") no-repeat center center/cover;
     opacity: 0.68;
     z-index: -2;
     top: 1176px;
