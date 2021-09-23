@@ -1,8 +1,14 @@
 # Food_delivery
 
 This is food delivery website learned from youtube tutorial and i added it backend for contact us form and smooth scrolling as well 
-![Demo](img/New_video_SparkVideo.gif)
 
+# Screenshots:
+![Demo](img/abc.png)
+![Demo](img/abc2.png)
+![Demo](img/abc3.png)
+![Demo](img/abc4.png)
+![Demo](img/abc5.png)
+![Demo](img/abc6.png)
 
 ## 👋 Hi, To use this (you should know a bit about atleast node js and expressjs):
 - git clone
